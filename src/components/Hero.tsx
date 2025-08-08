@@ -53,8 +53,8 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8"
           >
-            <span className="text-neon-secondary">Front-end Developer</span> &{' '}
-            <span className="text-neon">Competitive Programmer</span>
+            <span className="text-neon-secondary">Final-year Student</span> &{' '}
+            <span className="text-neon">MERN Stack Developer</span>
           </motion.p>
           
           {/* Description */}
@@ -80,7 +80,7 @@ export const Hero = () => {
               <a href="#projects">View My Work</a>
             </Button>
             <Button className="btn-cyber-secondary" asChild>
-              <a href="/lovable-uploads/d06ff6be-7653-420b-84de-c867bfdd78df.png" download>Download Resume</a>
+              <a href="/resume.pdf" download>Download Resume</a>
             </Button>
           </motion.div>
           

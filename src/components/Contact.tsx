@@ -1,10 +1,17 @@
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Phone } from 'lucide-react';
 
 export const Contact = () => {
   const contactMethods = [
+    {
+      icon: <Phone className="w-8 h-8" />,
+      title: "Phone",
+      description: "+91 77420 86648",
+      link: "tel:+917742086648",
+      color: "text-neon-secondary hover:text-neon"
+    },
     {
       icon: <Github className="w-8 h-8" />,
       title: "GitHub",

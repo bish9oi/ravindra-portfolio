@@ -72,9 +72,6 @@ export const Navigation = () => {
                     {item.name}
                   </motion.button>
                 ))}
-                <Button className="btn-cyber" asChild>
-                  <a href="mailto:bishnoiravindra344@gmail.com">Hire Me</a>
-                </Button>
               </div>
             </div>
 
@@ -112,9 +109,6 @@ export const Navigation = () => {
                 {item.name}
               </button>
             ))}
-            <Button className="btn-cyber w-full mt-4" asChild>
-              <a href="mailto:bishnoiravindra344@gmail.com">Hire Me</a>
-            </Button>
           </div>
         </motion.div>
       </motion.nav>
