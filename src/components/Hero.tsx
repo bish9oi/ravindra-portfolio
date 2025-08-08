@@ -76,11 +76,11 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="flex flex-wrap gap-4 justify-center mb-12"
           >
-            <Button className="btn-cyber">
-              View My Work
+            <Button className="btn-cyber" asChild>
+              <a href="#projects">View My Work</a>
             </Button>
-            <Button className="btn-cyber-secondary">
-              Download Resume
+            <Button className="btn-cyber-secondary" asChild>
+              <a href="/lovable-uploads/d06ff6be-7653-420b-84de-c867bfdd78df.png" download>Download Resume</a>
             </Button>
           </motion.div>
           
@@ -97,7 +97,7 @@ export const Hero = () => {
             <a href="https://www.linkedin.com/in/ravindra-bishnoi-1601a125a/" className="p-3 rounded-full border border-secondary hover:bg-secondary hover:text-secondary-foreground transition-colors duration-300">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:ravindra@example.com" className="p-3 rounded-full border border-accent hover:bg-accent hover:text-accent-foreground transition-colors duration-300">
+            <a href="mailto:bishnoiravindra344@gmail.com" className="p-3 rounded-full border border-accent hover:bg-accent hover:text-accent-foreground transition-colors duration-300">
               <Mail className="w-6 h-6" />
             </a>
           </motion.div>

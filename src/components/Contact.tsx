@@ -8,7 +8,7 @@ export const Contact = () => {
     {
       icon: <Github className="w-8 h-8" />,
       title: "GitHub",
-      description: "Check out my projects and contributions",
+      description: "Projects and contributions",
       link: "https://github.com/bish9oi",
       color: "text-neon hover:text-neon-secondary"
     },
@@ -23,8 +23,36 @@ export const Contact = () => {
       icon: <Mail className="w-8 h-8" />,
       title: "Email",
       description: "Drop me a message",
-      link: "mailto:ravindra@example.com",
+      link: "mailto:bishnoiravindra344@gmail.com",
       color: "text-accent hover:text-accent-glow"
+    },
+    {
+      icon: <ExternalLink className="w-8 h-8" />,
+      title: "Codolio",
+      description: "Coding portfolio",
+      link: "https://codolio.com/profile/bishnoi29",
+      color: "text-primary hover:text-primary-glow"
+    },
+    {
+      icon: <ExternalLink className="w-8 h-8" />,
+      title: "LeetCode",
+      description: "DSA practice and rating",
+      link: "https://leetcode.com/u/ravindra_bishnoi",
+      color: "text-neon-secondary hover:text-neon"
+    },
+    {
+      icon: <ExternalLink className="w-8 h-8" />,
+      title: "InterviewBit",
+      description: "Problem solving profile",
+      link: "https://www.interviewbit.com/profile/ravindra-bishnoi/",
+      color: "text-accent hover:text-accent-glow"
+    },
+    {
+      icon: <ExternalLink className="w-8 h-8" />,
+      title: "GeeksforGeeks",
+      description: "Articles and practice",
+      link: "https://www.geeksforgeeks.org/user/bishnoiravcnnn/",
+      color: "text-secondary hover:text-secondary-glow"
     }
   ];
 
@@ -121,13 +149,17 @@ export const Contact = () => {
               Whether you need a front-end developer, competitive programming mentor, or just want to chat about tech!
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button className="btn-cyber">
-                <Mail className="w-4 h-4 mr-2" />
-                Send Message
+              <Button className="btn-cyber" asChild>
+                <a href="mailto:bishnoiravindra344@gmail.com">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Send Message
+                </a>
               </Button>
-              <Button className="btn-cyber-secondary">
-                <Github className="w-4 h-4 mr-2" />
-                View Projects
+              <Button className="btn-cyber-secondary" asChild>
+                <a href="#projects">
+                  <Github className="w-4 h-4 mr-2" />
+                  View Projects
+                </a>
               </Button>
             </div>
           </Card>

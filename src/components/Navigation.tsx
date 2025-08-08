@@ -12,7 +12,8 @@ export const Navigation = () => {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Projects', href: '#projects' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   useEffect(() => {
@@ -71,8 +72,8 @@ export const Navigation = () => {
                     {item.name}
                   </motion.button>
                 ))}
-                <Button className="btn-cyber">
-                  Hire Me
+                <Button className="btn-cyber" asChild>
+                  <a href="mailto:bishnoiravindra344@gmail.com">Hire Me</a>
                 </Button>
               </div>
             </div>
@@ -111,8 +112,8 @@ export const Navigation = () => {
                 {item.name}
               </button>
             ))}
-            <Button className="btn-cyber w-full mt-4">
-              Hire Me
+            <Button className="btn-cyber w-full mt-4" asChild>
+              <a href="mailto:bishnoiravindra344@gmail.com">Hire Me</a>
             </Button>
           </div>
         </motion.div>

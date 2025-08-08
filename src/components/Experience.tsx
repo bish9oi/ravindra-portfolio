@@ -5,12 +5,12 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react';
 
 export const Experience = () => {
   const experience = {
-    company: "Oxmaint Inc",
-    role: "Front-End Developer & Prompt Engineer Intern",
-    location: "Remote - California, USA",
-    duration: "May 2024 - July 2024",
-    description: "Worked on building and optimizing user interfaces for web applications, implementing best coding practices, and reducing code complexity by 20%.",
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Prompt Engineering"],
+    company: "OXMIANT, Jaipur",
+    role: "Web Development & Prompt Engineering Intern",
+    location: "Jaipur, India",
+    duration: "June 2024 – July 2024",
+    description: "Built responsive, user-friendly pages with Bootstrap and studied LLMs for practical applications in web and content generation.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", "Tailwind CSS", "Prompt Engineering"],
     website: "https://community.oxmaint.com/"
   };
 
